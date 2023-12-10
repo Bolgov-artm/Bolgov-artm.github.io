@@ -1,0 +1,44 @@
+/* Reset CSS */
+
+/* Обнуляем отступы и поля для всех элементов */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Устанавливаем box-sizing на border-box для более предсказуемого поведения блоков */
+  text-decoration: none;
+  color: #000;
+}
+
+/* Сбрасываем стили для списков */
+ul, ol {
+  list-style: none;
+}
+
+/* Сбрасываем стили для текста */
+a, b, strong, i, em, small, code {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Сбрасываем стили для встроенных элементов */
+img, iframe {
+  border: 0;
+}
+
+/* Сбрасываем стили для формы */
+button, input, select, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Сбрасываем стили для таблиц */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

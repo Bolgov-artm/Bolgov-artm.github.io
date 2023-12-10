@@ -1,0 +1,286 @@
+
+a:hover{
+    opacity: 0.8;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../img/header-bg.png), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2vw 20vw;
+}
+
+header nav a{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+header .header-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+header .header-title p{
+    color: #0D302C;
+    font-family: Raleway;
+    font-size: 7vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+header .header-caption{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+header .header-caption p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+body{
+    display: inline-flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    gap: 7vh;
+    overflow-x: hidden;
+    
+}
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.title p{
+    color: #01353E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+
+
+.caption p{
+    width: 60vw;
+    color: #242121;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2vw; /* 133.333% */
+    letter-spacing: 0.6px;
+}
+
+.zeno-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.tsugino-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.milk-chan{
+    width: 60vw; 
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 5vh;
+}
+
+p.rustyshka{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+p.treska{
+    color: #242121;
+    font-family: Arial;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; /* 133.333% */
+    letter-spacing: 0.6px;
+}
+
+.text-img-block{
+    display: flex;
+    padding: 0px 10vw;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+
+.text-img-block .text-block{
+    /* width: 30vw; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    gap: 3vh;
+}
+
+.text-img-block .img-block img{
+    width: 40vw;
+    height: 50vh;
+}
+
+@media screen and (min-height: 1400px) {
+    .text-img-block .img-block img{
+        width: 40vw;
+        height: 300px;
+    }
+}
+
+
+.zeno-flex{
+    display: flex;
+    padding: 0px 5vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    row-gap: 100px;
+    flex-wrap: wrap;
+}
+
+.zeno-flex section{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    padding: 5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5vh;
+    flex-shrink: 0;
+
+    border-radius: 30px;
+    background: linear-gradient(101deg, #DCDCDC 5.32%, rgba(220, 220, 220, 0.00) 110.05%);
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25) inset;
+    transition: 1200ms;
+}
+
+.zeno-flex section:hover{
+    background: linear-gradient(259deg, #DCDCDC -0.28%, rgba(220, 220, 220, 0.00) 99.68%);
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.73) inset, 0px 0px 7.9px 0px rgba(0, 0, 0, 0.90);
+    transition: 1200ms;
+}
+
+.zeno-flex section p.rustyshka{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; /* 133.333% */
+    letter-spacing: 0.6px;
+}
+
+.zeno-flex section p.treska{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; /* 133.333% */
+    letter-spacing: 0.6px;
+}
+
+.line-photo{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.line-photo img{
+    width: 25vw;
+}
+
+.r-m p.rustyshka{
+    font-size: 1.5vw;
+}
+
+
+footer{
+    background: #0E262F;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2vw 20vw;
+}
+
+footer nav a{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+footer .description{
+    display: flex;
+    justify-content: center;
+}
+
+footer .description p{
+    color: #DDD;
+    text-align: center;
+    font-family: Arial;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; /* 150% */
+    width: 60vw;
+}
+
+footer .links{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin: 2vw 0;
+}
